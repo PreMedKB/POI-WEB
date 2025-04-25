@@ -1,0 +1,202 @@
+.report-container {
+    width: 100%;
+    font-family: Arial;
+    min-height: 100%;
+    position: relative;
+
+    .report-title {
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .report-content {
+        position: relative;
+        background-color: #1b4780;
+        color: white;
+        display: flex;
+        // padding-top: 12px;
+        // padding-left: 12px;
+        // padding-right: 12px;
+        // padding-bottom: 6px;
+        width: 100%;
+
+        p {
+            font-size: 16px;
+            line-height: 6px;
+            // margin-bottom: 4px;
+        }
+
+        .report-content-head {
+            width: 80%;
+            padding-top: 12px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-bottom: 4px;
+            
+            p {
+                
+                line-height: 5px;
+                
+            }
+        }
+
+        // .report-content-img {
+        //     float:right;
+        // }
+    }
+
+    .report-show {
+        position: relative;
+        padding: 16px;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.85);
+
+        .ant-tabs-bar {
+            margin-bottom: 0px;
+        }
+        .report-show-content-title {
+            display: flex;
+            margin-bottom: 8px;
+
+            b {
+                font-size: 18px;
+                margin-top: -3px;
+                margin-right: 5px;
+                color: #0051AA;
+            }
+        }
+
+        .report-show-content-icon {
+            width: 20px;
+            margin-right: 20px;
+        }
+        .report-show-content {
+            position: relative;
+            width: 100%;
+
+            // .report-show-content-title {
+            //     display: flex;
+            //     margin-bottom: 8px;
+
+            //     b {
+            //         font-size: 18px;
+            //         margin-top: -3px;
+            //         margin-right: 5px;
+            //         color: #0051AA;
+            //     }
+            // }
+
+            // .report-show-content-icon {
+            //     width: 20px;
+            //     margin-right: 20px;
+            // }
+
+            .report-show-content-text {
+                p {
+                    font-size: 16px;
+                    margin-bottom: 1px;
+                }
+
+                span {
+                    color: #004889;
+                }
+            }
+
+            .report-show-content-levels {
+                position: relative;
+                width: 100%;
+                margin-top: 12px;
+                margin-bottom: 8px;
+                font-size: 16px;
+                // border: 1.5px solid #1B4780;
+                padding: 12px;
+
+                table {
+                    font-family: Arial;
+                    font-size: 0.95rem;
+                    border-collapse: collapse;
+                    width: 100%;
+                    table-layout: fixed;
+                    word-break: normal;
+                    border: none;
+                    td {
+                        border-right: 1px solid #ecedf1;
+                        border-bottom: 1px solid #ecedf1;
+                        padding: 1em;
+                    }
+                    th {
+                        border-right: 1px solid #ecedf1;
+                        border-bottom: 2px solid #ecedf1;
+                        
+                    }
+                }
+
+                
+
+                #customer_table tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+
+                #customer_table tr:hover {
+                    background-color: #ddd;
+                }
+
+                .report-show-content-level {
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 5px;
+                    // word-break: break-all;
+
+                    b {
+                        font-size: 16px;
+                    }
+                    >span {
+                       display: block;
+                       display: flex;
+                       flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+
+    .report-summary-title {
+        color: #0651a5;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .report-summary-line {
+        margin-top: 5px;
+        position: relative;
+        width: 100%;
+        left: 0%;
+        height: 3px;
+        background-color: #bababa;
+    }
+
+    .showIcons {
+        display: flex;
+    }
+
+    .showIcon {
+        width: 22px;
+        height: 22px;
+        margin-right: 2px;
+    }
+
+}
+
+.showP {
+    margin-bottom: 3px;
+}
+
+.rowClassname {
+    background-color: #bababa;
+}
+
+.tableHiddle {
+    display: none;
+}
