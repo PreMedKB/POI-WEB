@@ -10,5 +10,8 @@ git clone https://github.com/PreMedKB/POI-WEB.git
 
 After the download is complete, you can start using the following command:
 ```
+npm install --force
+```
+```
 npm run start
 ```
